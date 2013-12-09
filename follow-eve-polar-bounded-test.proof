@@ -1,0 +1,666 @@
+\settings {
+"#Proof-Settings-Config-File
+#Fri Dec 06 19:23:22 EST 2013
+[DLOptions]counterExampleGenerator=Mathematica
+[DecisionProcedure]Exec=
+[DLOptions]termFactoryClass=de.uka.ilkd.key.dl.model.impl.TermFactoryImpl
+[Z3Options]z3ElimExPrefix=true
+[ReduceOptions]qepcadFallback=false
+[MathematicaOptions]eliminateFractions=false
+[TacletTranslation]filename=
+[Libraries]Default=/Users/charlie/.keymaera/libraries/acc.key-false, /Users/alpeter/.keymaera/libraries/deprecatedRules.key-false, /Users/alpeter/.keymaera/libraries/stringRules.key-false, /Users/charlie/.keymaera/libraries/deprecatedRules.key-false, /Users/alpeter/.keymaera/libraries/acc.key-false, /Users/charlie/.keymaera/libraries/stringRules.key-false
+[StrategyProperty]USER_TACLETS_OPTIONS_KEY3=USER_TACLETS_OFF
+[DLOptions]BuiltInArithmeticIneqs=OFF
+[ReduceOptions]rlcadpbfvs=DEFAULT
+[ReduceOptions]rlcadaproj=DEFAULT
+[StrategyProperty]USER_TACLETS_OPTIONS_KEY2=USER_TACLETS_OFF
+[StrategyProperty]USER_TACLETS_OPTIONS_KEY1=USER_TACLETS_OFF
+[General]ProofAssistant=false
+[ReduceOptions]rlcadprojonly=DEFAULT
+[DLOptions]reduceOnFreshBranch=false
+[StrategyProperty]LOOP_OPTIONS_KEY=LOOP_INVARIANT
+[ReduceOptions]rlqeqsc=DEFAULT
+[ReduceOptions]rlcadbaseonly=DEFAULT
+[DLOptions]simplifyAfterReduce=false
+[DLOptions]readdQuantifiers=true
+[DecisionProcedure]ActiveRule=_noname_
+[ReduceOptions]rlcadrawformula=DEFAULT
+[DLOptions]applyLocalSimplify=false
+[SimultaneousUpdateSimplifier]DeleteEffectLessLocations=true
+[ReduceOptions]quantifierEliminationMethod=RLQE
+[DLOptions]DiffSat=AUTO
+[DLOptions]simplifier=Mathematica
+[StrategyProperty]QUERY_OPTIONS_KEY=QUERY_NONE
+[StrategyProperty]QUANTIFIERS_OPTIONS_KEY=QUANTIFIERS_NON_SPLITTING_WITH_PROGS
+[DLOptions]simplifyAfterODESolve=false
+[ReduceOptions]rlall=true
+[MetiTarskiOptions]metitBacktracking=true
+[DLOptions]diffSatTimeout=4000
+[DLOptions]linearTimeoutIncreaseFactor=2
+[ReduceOptions]groebnerBasis=false
+[DecisionProcedure]Timeout=600
+[ReduceOptions]rlqesqsc=DEFAULT
+[General]SoundNotification=false
+[StrategyProperty]STOPMODE_OPTIONS_KEY=STOPMODE_DEFAULT
+[Choice]DefaultChoices=throughout-throughout\\:toutOn , transactions-transactions\\:transactionsOn , intRules-intRules\\:arithmeticSemanticsIgnoringOF , programRules-programRules\\:Java , initialisation-initialisation\\:disableStaticInitialisation , transactionAbort-transactionAbort\\:abortOn , nullPointerPolicy-nullPointerPolicy\\:nullCheck , javacard-javacard\\:jcOff
+[ReduceOptions]rlsimpl=ON
+[MathematicaOptions]useParallelize=false
+[ReduceOptions]rlcadextonly=DEFAULT
+[Strategy]MaximumNumberOfAutomaticApplications=2000
+[ReduceOptions]rlanuexsgnopt=DEFAULT
+[ReduceOptions]rlcadpartial=DEFAULT
+[General]UseJML=true
+[DLOptions]useSOS=false
+[MathematicaOptions]useEliminateList=true
+[DecisionProcedure]savefile=false
+[DLOptions]applyGammaRules=ONLY_TO_MODALITIES
+[DecisionProcedure]showSMTResDialog=false
+[TacletTranslation]assignment=11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+[DLOptions]QEOnlyToTrue=false
+[General]StupidMode=true
+[DLOptions]constantTimeoutIncreaseFactor=0
+[DLOptions]solveODE=true
+[StrategyProperty]METHOD_OPTIONS_KEY=METHOD_EXPAND
+[DLOptions]loopSatTimeout=2000000
+[DLOptions]odeSolver=Mathematica
+[OrbitalOptions]precision=34
+[HOLLightOptions]qeMethod=ProofProducing
+[ReduceOptions]rlqedfs=DEFAULT
+[HOLLightOptions]useSnapshots=false
+[QepcadOptions]qepcadMemoryLimit=2000000
+[ReduceOptions]rlqeheu=DEFAULT
+[ReduceOptions]rlanuexpsremseq=DEFAULT
+[DecisionProcedure]multprovers=Z3\\=true\\:Yices\\=true\\:Simplify\\=true\\:CVC3\\=true
+[ReduceOptions]rlcadfulldimonly=DEFAULT
+[DLOptions]csdpForceInternal=false
+[DLOptions]invariantRule=QUANTIFIERS
+[DLOptions]addRigidFormulas=true
+[General]DnDDirectionSensitive=true
+[DLOptions]simplifyBeforeReduce=false
+[Z3Options]z3Prenex=true
+[DLOptions]applyToModality=false
+[DLOptions]initialTimeout=2000
+[ReduceOptions]rlcadaprojalways=DEFAULT
+[DLOptions]CexFinder=ITER_DEEP
+[DLOptions]useIterativeReduceRule=false
+[Choice]Choices=transactions-transactions\\:transactionsOn-transactions\\:transactionsOff , throughout-throughout\\:toutOn-throughout\\:toutOff , programRules-programRules\\:Java-programRules\\:ODL-programRules\\:dL , intRules-intRules\\:javaSemantics-intRules\\:arithmeticSemanticsIgnoringOF-intRules\\:arithmeticSemanticsCheckingOF , initialisation-initialisation\\:enableStaticInitialisation-initialisation\\:disableStaticInitialisation , transactionAbort-transactionAbort\\:abortOn-transactionAbort\\:abortOff , nullPointerPolicy-nullPointerPolicy\\:noNullCheck-nullPointerPolicy\\:nullCheck , javacard-javacard\\:jcOff-javacard\\:jcOn
+[CohenhormanderOptions]eliminatorMode=DNF
+[DLOptions]percentOfPowersetForIterativeReduce=70
+[hints]used=
+[ReduceOptions]rlcadhongproj=DEFAULT
+[ReduceOptions]rlanuexgcdnormalize=DEFAULT
+[MathematicaOptions]memoryConstraint=-1
+[ReduceOptions]rlcadtrimtree=DEFAULT
+[DLOptions]groebnerBasisCalculator=Mathematica
+[ReduceOptions]rlcadfac=DEFAULT
+[Strategy]Timeout=-1
+[DLOptions]applyGlobalReduce=true
+[OrbitalOptions]representation=big
+[SimultaneousUpdateSimplifier]EagerSimplification=true
+[TacletTranslation]maxGeneric=2
+[DLOptions]ibcOnlyToFO=true
+[DLOptions]TracerStat=OFF
+[TacletTranslation]saveToFile=false
+[DLOptions]BuiltInArithmetic=OFF
+[DLOptions]counterexampleTest=ON
+[StrategyProperty]GOALCHOOSER_OPTIONS_KEY=GOALCHOOSER_DEFAULT
+[DecisionProcedure]WaitForAllProvers=false
+[DLOptions]useODEIndFinMethods=false
+[StrategyProperty]NON_LIN_ARITH_OPTIONS_KEY=NON_LIN_ARITH_NONE
+[ReduceOptions]rlcadisoallroots=DEFAULT
+[ReduceOptions]rlnzden=ON
+[MathematicaOptions]quantifierEliminationMethod=REDUCE
+[StrategyProperty]SPLITTING_OPTIONS_KEY=SPLITTING_DELAYED
+[ReduceOptions]eliminateFractions=false
+[DecisionProcedure]WeakenSMTTranslation=false
+[ReduceOptions]rlcadte=DEFAULT
+[DLOptions]ignoreAnnotations=false
+[StrategyProperty]VBT_PHASE=VBT_SYM_EX
+[DLOptions]sosChecker=Built-in SOS
+[General]UseOCL=false
+[OrbitalOptions]sparsePolynomials=true
+[ReduceOptions]rlposden=DEFAULT
+[DLOptions]simplifyTimeout=0
+[Strategy]ActiveStrategy=DLStrategy
+[DLOptions]usePowersetIterativeReduce=true
+[DLOptions]quadricTimeoutIncreaseFactor=0
+[DLOptions]FOStrategy=LAZY
+[ReduceOptions]rlqepnf=DEFAULT
+[DLOptions]applyLocalReduce=OFF
+[DLOptions]quantifierEliminator=Mathematica
+"
+}
+
+\programVariables{
+  R A; /* walle's maximum acceleration */
+  R B; /* walle's maximum braking */
+  R T; /* Time-trigger limit on evolution */
+  R t;  /* time */
+
+  R theta_w; /* Position of walle in y direction */
+  R z_w; /* Position of walle in z direction */
+  R dz_w; /* Unit vector in direction of travel, z direction */
+  R r_w; /* Over-approximation on radius of walle */
+  R omega_w; /* Angular velocity of walle */
+  R a; /* Linear acceleration of walle */
+
+  R theta_e; /* Position of eve in y direction */
+  R z_e; /* Position of eve in z direction */
+  R dz_e; /* Unit vector in direction of travel, z direction */
+  R r_e; /* Over-approximation on radius of eve */
+  R omega_e; /* Angular velocity of eve */
+
+  R cute_r; /* Distance between center of walle and center of eve */
+
+  R time_to_brake; 
+  R dist_to_brake; 
+  R time_to_acc; 
+  R dist_to_acc; 
+}
+
+\problem {
+   (  (  (  (  (  (  (  (  (  (  (  (  (   (omega_w)
+                                        >= (0))
+                                     & (   (omega_e)
+                                        >  (0)))
+                                  & (   (0)
+                                     <  (  (theta_e)
+                                         - (theta_w))))
+                               & (   (  (theta_e)
+                                      - (theta_w))
+                                  <  (360)))
+                            & ((T) >  (0)))
+                         & ((r_w) >  (0)))
+                      & ((r_e) >  (0)))
+                   & ((dz_w) >  (0)))
+                & ((dz_e) = (dz_w)))
+             & ((B) >  (0)))
+          & ((A) >  (0)))
+       & (   ((omega_w) >  (omega_e))
+          -> ((T) <= (((omega_w) - (omega_e)) / (B)))))
+    & (   ((omega_e) >  (omega_w))
+       -> ((T) <= (((omega_e) - (omega_w)) / (A)))))
+-> (\[
+      (a := * ;
+        (time_to_brake := (((omega_w + a * T) - omega_e) / B) ;
+          (dist_to_brake := (((omega_w + a * T) ^ 2 - omega_e ^ 2) / (2 * B)) ;
+            (time_to_acc := ((omega_e - (omega_w + a * T)) / A) ;
+              (dist_to_acc := ((omega_e ^ 2 - (omega_w + a * T) ^ 2) / (2 * A)) ;
+                (?(a >= -(B) & (a <= A & (0 < ((theta_e + omega_e * T) + omega_e * Max(time_to_brake, time_to_acc)) - (((theta_w + omega_w * T) + (a * T ^ 2) / 2) + Max(dist_to_brake, dist_to_acc)) & ((theta_e + omega_e * T) + omega_e * Max(time_to_acc, time_to_brake)) - (((theta_w + omega_w * T) + (a * T ^ 2) / 2) + Max(dist_to_brake, dist_to_acc)) < 360))) ;
+                  (t := 0 ;
+                    {theta_w' = omega_w, 
+                    z_w' = dz_w, 
+                    omega_w' = a, 
+                    theta_e' = omega_e, 
+                    z_e' = dz_e, 
+                    t' = 1, 
+                    t <= T, 
+                    omega_w >= 0})))))))*
+      \] ((theta_e) != (theta_w)))
+
+}
+
+\proof {
+(keyLog "0" (keyUser "charlie" ) (keyVersion "94892105fbd8c6aaa0b33565ce51d067ac61464f"))
+(keyLog "1" (keyUser "charlie" ) (keyVersion "94892105fbd8c6aaa0b33565ce51d067ac61464f"))
+(keyLog "2" (keyUser "charlie" ) (keyVersion "94892105fbd8c6aaa0b33565ce51d067ac61464f"))
+(keyLog "3" (keyUser "charlie" ) (keyVersion "94892105fbd8c6aaa0b33565ce51d067ac61464f"))
+(keyLog "4" (keyUser "charlie" ) (keyVersion "94892105fbd8c6aaa0b33565ce51d067ac61464f"))
+(keyLog "5" (keyUser "charlie" ) (keyVersion "94892105fbd8c6aaa0b33565ce51d067ac61464f"))
+
+(autoModeTime "74281")
+
+(nodes "271")
+
+(branches "27")
+
+(interactiveSteps "93")
+
+(branch "dummy ID"
+(rule "imp_right" (formula "1") (quantifierEliminator "Mathematica") (nodenum "224806"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "224837"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "224866"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "224895"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "224934"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "224973"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "225008"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "225047"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "225086"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "225125"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "225164"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "225198"))
+(rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "225232"))
+(rule "hide_left" (formula "12") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "250049"))
+(rule "hide_left" (formula "12") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "250092"))
+(rule "loop_inv_box_quan" (formula "12") (inst "inv=  (  ((omega_w) >= (0))
+   & (  ((0) <  ((theta_e) - (theta_w)))
+      & (  (((theta_e) - (theta_w)) <  (360))
+         & (  ((B) >  (0))
+            & (  ((A) >  (0))
+               & (  (   ((omega_w) >  (omega_e))
+                     -> (   (T)
+                         <= (  ((omega_w) - (omega_e))
+                             / (B))))
+                  & (   ((omega_e) >  (omega_w))
+                     -> (   (T)
+                         <= (  ((omega_e) - (omega_w))
+                             / (A))))))))))
+& (  (  (  (  (  (  (((omega_e) >  (0)) & ((T) >  (0)))
+                  & ((r_w) >  (0)))
+               & ((r_e) >  (0)))
+            & ((dz_w) >  (0)))
+         & ((dz_e) = (dz_w)))
+      & ((B) >  (0)))
+   & ((A) >  (0)))") (quantifierEliminator "Mathematica") (nodenum "252522"))
+(branch " Invariant Initially Valid"
+   (opengoal " omega_w >= 0,  omega_e >  0,  0 <  theta_e - theta_w,  theta_e - theta_w <  360,  T >  0,  r_w >  0,  r_e >  0,  dz_w >  0,  dz_e = dz_w,  B >  0,  A >  0 ==>      omega_w >= 0    & (  0 <  theta_e - theta_w       & (  theta_e - theta_w <  360          & (  B >  0             & (  A >  0                & (  (   omega_w >  omega_e                      -> T <= (omega_w - omega_e) / B)                   & (   omega_e >  omega_w                      -> T <= (omega_e - omega_w) / A))))))  & (        omega_e >  0 & T >  0 & r_w >  0 & r_e >  0           & dz_w >  0         & dz_e = dz_w       & B >  0     & A >  0)   ")
+)
+(branch " Use Case"
+   (builtin "Update Simplification" (formula "12") (nodenum "253572"))
+   (rule "all_right" (formula "12") (inst "skC=a_9") (quantifierEliminator "Mathematica") (nodenum "253903"))
+   (rule "all_right" (formula "12") (inst "skC=omega_w_10") (quantifierEliminator "Mathematica") (nodenum "254316"))
+   (rule "all_right" (formula "12") (inst "skC=dist_to_acc_5") (quantifierEliminator "Mathematica") (nodenum "254725"))
+   (rule "all_right" (formula "12") (inst "skC=dist_to_brake_5") (quantifierEliminator "Mathematica") (nodenum "255130"))
+   (rule "all_right" (formula "12") (inst "skC=theta_w_10") (quantifierEliminator "Mathematica") (nodenum "255531"))
+   (rule "all_right" (formula "12") (inst "skC=time_to_acc_5") (quantifierEliminator "Mathematica") (nodenum "255928"))
+   (rule "all_right" (formula "12") (inst "skC=time_to_brake_5") (quantifierEliminator "Mathematica") (nodenum "256321"))
+   (rule "all_right" (formula "12") (inst "skC=theta_e_10") (quantifierEliminator "Mathematica") (nodenum "256710"))
+   (rule "all_right" (formula "12") (inst "skC=z_e_10") (quantifierEliminator "Mathematica") (nodenum "257095"))
+   (rule "all_right" (formula "12") (inst "skC=z_w_10") (quantifierEliminator "Mathematica") (nodenum "257476"))
+   (rule "all_right" (formula "12") (inst "skC=t_9") (quantifierEliminator "Mathematica") (nodenum "257853"))
+   (rule "imp_right" (formula "12") (quantifierEliminator "Mathematica") (nodenum "258050"))
+   (rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "258083"))
+   (rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "258114"))
+   (rule "and_left" (formula "3") (quantifierEliminator "Mathematica") (nodenum "258158"))
+   (rule "and_left" (formula "2") (quantifierEliminator "Mathematica") (nodenum "258175"))
+   (rule "and_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "258213"))
+   (rule "and_left" (formula "3") (quantifierEliminator "Mathematica") (nodenum "258230"))
+   (rule "and_left" (formula "5") (quantifierEliminator "Mathematica") (nodenum "258268"))
+   (rule "and_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "258285"))
+   (rule "and_left" (formula "5") (quantifierEliminator "Mathematica") (nodenum "258303"))
+   (rule "and_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "258320"))
+   (rule "and_left" (formula "5") (quantifierEliminator "Mathematica") (nodenum "258337"))
+   (rule "and_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "258354"))
+   (rule "and_left" (formula "6") (quantifierEliminator "Mathematica") (nodenum "258388"))
+   (rule "and_left" (formula "6") (quantifierEliminator "Mathematica") (nodenum "258405"))
+   (rule "imp_left" (formula "5") (quantifierEliminator "Mathematica") (nodenum "258409"))
+   (branch " Case 1"
+      (rule "imp_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "258460"))
+      (branch " Case 1"
+         (builtin "Eliminate Universal Quantifiers" (formula "4") (quantifierEliminator "Mathematica") (nodenum "258510"))
+      )
+      (branch " Case 2"
+         (builtin "Eliminate Universal Quantifiers" (formula "5") (quantifierEliminator "Mathematica") (nodenum "258511"))
+      )
+   )
+   (branch " Case 2"
+      (rule "imp_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "258513"))
+      (branch " Case 1"
+         (builtin "Eliminate Universal Quantifiers" (formula "5") (quantifierEliminator "Mathematica") (nodenum "258532"))
+      )
+      (branch " Case 2"
+         (builtin "Eliminate Universal Quantifiers" (formula "6") (quantifierEliminator "Mathematica") (nodenum "258533"))
+      )
+   )
+)
+(branch " Body Preserves Invariant"
+   (builtin "Update Simplification" (formula "12") (nodenum "258534"))
+   (rule "all_right" (formula "12") (inst "skC=omega_w_9") (quantifierEliminator "Mathematica") (nodenum "258849"))
+   (rule "all_right" (formula "12") (inst "skC=theta_w_9") (quantifierEliminator "Mathematica") (nodenum "259414"))
+   (rule "all_right" (formula "12") (inst "skC=theta_e_9") (quantifierEliminator "Mathematica") (nodenum "259976"))
+   (rule "all_right" (formula "12") (inst "skC=z_e_9") (quantifierEliminator "Mathematica") (nodenum "260535"))
+   (rule "all_right" (formula "12") (inst "skC=z_w_9") (quantifierEliminator "Mathematica") (nodenum "261091"))
+   (rule "imp_right" (formula "12") (quantifierEliminator "Mathematica") (nodenum "261464"))
+   (rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "261499"))
+   (rule "and_left" (formula "2") (quantifierEliminator "Mathematica") (nodenum "261520"))
+   (rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "261528"))
+   (rule "and_left" (formula "3") (quantifierEliminator "Mathematica") (nodenum "261569"))
+   (rule "and_left" (formula "2") (quantifierEliminator "Mathematica") (nodenum "261577"))
+   (rule "and_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "261612"))
+   (rule "and_left" (formula "3") (quantifierEliminator "Mathematica") (nodenum "261620"))
+   (rule "and_left" (formula "5") (quantifierEliminator "Mathematica") (nodenum "261655"))
+   (rule "and_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "261663"))
+   (rule "and_left" (formula "5") (quantifierEliminator "Mathematica") (nodenum "261679"))
+   (rule "and_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "261687"))
+   (rule "and_left" (formula "5") (quantifierEliminator "Mathematica") (nodenum "261702"))
+   (rule "and_left" (formula "4") (quantifierEliminator "Mathematica") (nodenum "261710"))
+   (rule "and_left" (formula "6") (quantifierEliminator "Mathematica") (nodenum "261741"))
+   (rule "hide_left" (formula "4") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "267139"))
+   (rule "hide_left" (formula "4") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "267189"))
+   (rule "shift_paren_and" (formula "15") (term "1,1,1,1,0,0,5") (quantifierEliminator "Mathematica") (nodenum "269330"))
+   (rule "shift_paren_and" (formula "15") (term "1,0,0,5") (quantifierEliminator "Mathematica") (nodenum "269368"))
+   (rule "modality_split_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "269398"))
+   (rule "random_ass_box_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "269416"))
+   (builtin "Update Simplification" (formula "15") (nodenum "269604"))
+   (rule "all_right" (formula "15") (inst "skC=a_15") (quantifierEliminator "Mathematica") (nodenum "269656"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,6") (quantifierEliminator "Mathematica") (nodenum "269681"))
+   (rule "shift_paren_and" (formula "15") (term "0,6") (quantifierEliminator "Mathematica") (nodenum "269709"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,6") (quantifierEliminator "Mathematica") (nodenum "269733"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,0,6") (quantifierEliminator "Mathematica") (nodenum "269759"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,0,0,6") (quantifierEliminator "Mathematica") (nodenum "269787"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,0,0,0,6") (quantifierEliminator "Mathematica") (nodenum "269817"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,0,0,0,0,6") (quantifierEliminator "Mathematica") (nodenum "269849"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,0,0,0,0,0,6") (quantifierEliminator "Mathematica") (nodenum "269883"))
+   (rule "shift_paren_and" (formula "15") (term "1,0,0,0,0,0,0,0,0,0,6") (quantifierEliminator "Mathematica") (nodenum "269918"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,0,0,0,0,0,0,0,0,6") (quantifierEliminator "Mathematica") (nodenum "269961"))
+   (rule "shift_paren_and" (formula "15") (term "0,1,0,0,0,0,0,0,0,0,0,6") (quantifierEliminator "Mathematica") (nodenum "270003"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,0,0,0,0,0,0,0,6") (quantifierEliminator "Mathematica") (nodenum "270047"))
+   (rule "modality_split_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270087"))
+   (rule "assignment_to_update_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270105"))
+   (builtin "Update Simplification" (formula "15") (nodenum "270175"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,0,0,0,0,0,0,0,0,7") (quantifierEliminator "Mathematica") (nodenum "270218"))
+   (rule "modality_split_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270260"))
+   (rule "assignment_to_update_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270278"))
+   (builtin "Update Simplification" (formula "15") (nodenum "270387"))
+   (rule "shift_paren_and" (formula "15") (term "0,0,0,0,0,0,0,0,0,0,0,8") (quantifierEliminator "Mathematica") (nodenum "270445"))
+   (rule "modality_split_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270488"))
+   (rule "assignment_to_update_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270506"))
+   (builtin "Update Simplification" (formula "15") (nodenum "270576"))
+   (rule "modality_split_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270607"))
+   (rule "assignment_to_update_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270625"))
+   (builtin "Update Simplification" (formula "15") (nodenum "270734"))
+   (rule "modality_split_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270772"))
+   (rule "box_quest_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "270790"))
+   (builtin "Update Simplification" (formula "1") (nodenum "271252"))
+   (rule "and_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "271447"))
+   (rule "and_left" (formula "2") (quantifierEliminator "Mathematica") (nodenum "271488"))
+   (rule "and_left" (formula "3") (quantifierEliminator "Mathematica") (nodenum "271523"))
+   (rule "modality_split_right" (formula "19") (quantifierEliminator "Mathematica") (nodenum "271564"))
+   (rule "assignment_to_update_right" (formula "19") (quantifierEliminator "Mathematica") (nodenum "271585"))
+   (builtin "Update Simplification" (formula "19") (nodenum "271616"))
+   (rule "diffstrengthen" (formula "19") (inst "augment=(t) >= (0)") (quantifierEliminator "Mathematica") (nodenum "271642"))
+   (branch " Invariant Valid"
+      (rule "diffind" (formula "19") (quantifierEliminator "Mathematica") (nodenum "271694"))
+      (branch " Invariant Initially Valid"
+         (builtin "Update Simplification" (formula "20") (nodenum "271866"))
+         (builtin "Update Simplification" (formula "1") (nodenum "271889"))
+         (rule "eval_literals_for" (formula "20") (quantifierEliminator "Mathematica") (nodenum "271930"))
+         (rule "close_by_true" (formula "20") (quantifierEliminator "Mathematica") (nodenum "271948"))
+      )
+      (branch " ODE Preserves Invariant"
+         (builtin "Update Simplification" (formula "19") (nodenum "271949"))
+         (rule "eval_literals_for" (formula "19") (term "1,0,0,0,0,0,0") (quantifierEliminator "Mathematica") (nodenum "272026"))
+         (rule "concrete_impl_4" (formula "19") (term "0,0,0,0,0,0") (quantifierEliminator "Mathematica") (nodenum "272059"))
+         (rule "all_right" (formula "19") (inst "skC=omega_w_12") (quantifierEliminator "Mathematica") (nodenum "272099"))
+         (rule "all_right" (formula "19") (inst "skC=theta_w_12") (quantifierEliminator "Mathematica") (nodenum "272139"))
+         (rule "all_right" (formula "19") (inst "skC=z_e_12") (quantifierEliminator "Mathematica") (nodenum "272175"))
+         (rule "all_right" (formula "19") (inst "skC=z_w_12") (quantifierEliminator "Mathematica") (nodenum "272207"))
+         (rule "all_right" (formula "19") (inst "skC=theta_e_12") (quantifierEliminator "Mathematica") (nodenum "272235"))
+         (rule "all_right" (formula "19") (inst "skC=t_13") (quantifierEliminator "Mathematica") (nodenum "272259"))
+         (rule "close_by_true" (formula "19") (quantifierEliminator "Mathematica") (nodenum "272269"))
+      )
+   )
+   (branch " Augmented Invariant"
+      (rule "ODESolve_right" (formula "19") (quantifierEliminator "Mathematica") (nodenum "272274"))
+      (builtin "Update Simplification" (formula "19") (nodenum "273016"))
+      (rule "add_zero_left" (formula "19") (term "0,1,1,0,0,1,0") (quantifierEliminator "Mathematica") (nodenum "275125"))
+      (rule "add_zero_left" (formula "19") (term "0,0,0,1,0,0,1,0") (quantifierEliminator "Mathematica") (nodenum "275163"))
+      (rule "all_right" (formula "19") (inst "skC=t_15") (quantifierEliminator "Mathematica") (nodenum "275207"))
+      (rule "imp_right" (formula "19") (quantifierEliminator "Mathematica") (nodenum "275754"))
+      (rule "imp_right" (formula "20") (quantifierEliminator "Mathematica") (nodenum "275800"))
+      (rule "replace_known_left" (formula "21") (term "1,0,0,0,0,0,0,0,0,0,0,0") (ifseqformula "19") (quantifierEliminator "Mathematica") (nodenum "275842"))
+      (rule "concrete_and_3" (formula "21") (term "0,0,0,0,0,0,0,0,0,0,0") (quantifierEliminator "Mathematica") (nodenum "275909"))
+      (rule "replace_known_left" (formula "21") (term "1,0,0,0,0,0,0,0,0,0,0") (ifseqformula "20") (quantifierEliminator "Mathematica") (nodenum "275967"))
+      (rule "concrete_and_3" (formula "21") (term "0,0,0,0,0,0,0,0,0,0") (quantifierEliminator "Mathematica") (nodenum "276021"))
+      (rule "replace_known_left" (formula "21") (term "1,0,0,0,0") (ifseqformula "16") (quantifierEliminator "Mathematica") (nodenum "276075"))
+      (rule "concrete_and_3" (formula "21") (term "0,0,0,0") (quantifierEliminator "Mathematica") (nodenum "276110"))
+      (rule "replace_known_left" (formula "21") (term "1,0,0,0,0,0") (ifseqformula "14") (quantifierEliminator "Mathematica") (nodenum "276143"))
+      (rule "concrete_and_3" (formula "21") (term "0,0,0,0,0") (quantifierEliminator "Mathematica") (nodenum "276182"))
+      (rule "replace_known_left" (formula "21") (term "1,0,0,0,0,0") (ifseqformula "11") (quantifierEliminator "Mathematica") (nodenum "276217"))
+      (rule "concrete_and_3" (formula "21") (term "0,0,0,0,0") (quantifierEliminator "Mathematica") (nodenum "276256"))
+      (rule "replace_known_left" (formula "21") (term "1,0,0,0,0") (ifseqformula "15") (quantifierEliminator "Mathematica") (nodenum "276290"))
+      (rule "concrete_and_3" (formula "21") (term "0,0,0,0") (quantifierEliminator "Mathematica") (nodenum "276320"))
+      (rule "replace_known_left" (formula "21") (term "1") (ifseqformula "20") (quantifierEliminator "Mathematica") (nodenum "276350"))
+      (rule "concrete_and_3" (formula "21") (quantifierEliminator "Mathematica") (nodenum "276369"))
+      (rule "replace_known_left" (formula "21") (term "1,0") (ifseqformula "18") (quantifierEliminator "Mathematica") (nodenum "276390"))
+      (rule "concrete_and_3" (formula "21") (term "0") (quantifierEliminator "Mathematica") (nodenum "276413"))
+      (rule "replace_known_left" (formula "21") (term "1,0") (ifseqformula "17") (quantifierEliminator "Mathematica") (nodenum "276432"))
+      (rule "concrete_and_3" (formula "21") (term "0") (quantifierEliminator "Mathematica") (nodenum "276450"))
+      (rule "replace_known_left" (formula "21") (term "1") (ifseqformula "19") (quantifierEliminator "Mathematica") (nodenum "276468"))
+      (rule "concrete_and_3" (formula "21") (quantifierEliminator "Mathematica") (nodenum "276487"))
+      (rule "all_left" (formula "1") (inst "qC=t_15") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "278133"))
+      (rule "simplify_form_ass_left" (formula "1") (ifseqformula "2") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "278328"))
+      (rule "and_left" (formula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "278409"))
+      (rule "hide_left" (formula "19") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "278551"))
+      (rule "hide_left" (formula "18") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "278628"))
+      (rule "hide_left" (formula "17") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "278706"))
+      (rule "hide_left" (formula "16") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "278785"))
+      (rule "hide_left" (formula "11") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "278886"))
+      (rule "hide_left" (formula "13") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "280246"))
+      (rule "hide_left" (formula "12") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "280328"))
+      (rule "replace_known_left" (formula "15") (term "0,0,0,0") (ifseqformula "1") (quantifierEliminator "Mathematica") (nodenum "281498"))
+      (rule "concrete_and_1" (formula "15") (term "0,0,0") (quantifierEliminator "Mathematica") (nodenum "281535"))
+      (rule "and_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "281563"))
+      (branch " Case 1"
+         (rule "and_right" (formula "15") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "281679"))
+         (branch " Case 1"
+            (rule "and_right" (formula "15") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "281799"))
+            (branch " Case 1"
+               (rule "max_value" (formula "6") (term "1,1,0,1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "281922"))
+               (rule "ifthenelse_split" (formula "6") (term "1,1,0,1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "282041"))
+               (branch "    ((((omega_w_9) + ((a_15) * (T))) - (omega_e)) / (B))
+>= (((omega_e) - ((omega_w_9) + ((a_15) * (T)))) / (A)) TRUE"
+                  (rule "cut" (inst "b=  (Max(  ((omega_e) - ((omega_w_9) + ((a_15) * (T))))
+       / (A),
+         (((omega_w_9) + ((a_15) * (T))) - (omega_e))
+       / (B)))
+= ((((omega_w_9) + ((a_15) * (T))) - (omega_e)) / (B))") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "282266"))
+                  (branch " CUT:   (Max(  ((omega_e) - ((omega_w_9) + ((a_15) * (T))))
+       / (A),
+         (((omega_w_9) + ((a_15) * (T))) - (omega_e))
+       / (B)))
+= ((((omega_w_9) + ((a_15) * (T))) - (omega_e)) / (B))"
+                     (rule "applyEq" (formula "9") (term "1,1,0,0") (ifseqformula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "288863"))
+                     (rule "cut" (inst "b=  (Max(  (  (((omega_w_9) + ((a_15) * (T))) ^ (2))
+          - ((omega_e) ^ (2)))
+       / ((2) * (B)),
+         (  ((omega_e) ^ (2))
+          - (((omega_w_9) + ((a_15) * (T))) ^ (2)))
+       / ((2) * (A))))
+= (  (  (((omega_w_9) + ((a_15) * (T))) ^ (2))
+      - ((omega_e) ^ (2)))
+   / ((2) * (B)))") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "288933"))
+                     (branch " CUT:   (Max(  (  (((omega_w_9) + ((a_15) * (T))) ^ (2))
+          - ((omega_e) ^ (2)))
+       / ((2) * (B)),
+         (  ((omega_e) ^ (2))
+          - (((omega_w_9) + ((a_15) * (T))) ^ (2)))
+       / ((2) * (A))))
+= (  (  (((omega_w_9) + ((a_15) * (T))) ^ (2))
+      - ((omega_e) ^ (2)))
+   / ((2) * (B)))"
+                        (rule "hide_left" (formula "2") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "289071"))
+                        (rule "applyEq" (formula "8") (term "1,1,1") (ifseqformula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "289121"))
+                        (rule "applyEq" (formula "9") (term "1,1,0") (ifseqformula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "289217"))
+                        (rule "hide_left" (formula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "289327"))
+                        (rule "cut" (inst "b=((omega_w_9) + ((a_15) * (T))) >= (omega_e)") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "289464"))
+                        (branch " CUT: ((omega_w_9) + ((a_15) * (T))) >= (omega_e)"
+                           (rule "hide_left" (formula "7") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "293225"))
+                           (rule "hide_left" (formula "8") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "294844"))
+                           (rule "hide_left" (formula "10") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "295043"))
+                           (rule "cut" (inst "b=  ((omega_w_9) >  (omega_e))
+| (  ((omega_w_9) = (omega_e))
+   | (((omega_w_9) + ((a_15) * (T))) = (omega_e)))") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "304319"))
+                           (branch " CUT:   ((omega_w_9) >  (omega_e))
+| (  ((omega_w_9) = (omega_e))
+   | (((omega_w_9) + ((a_15) * (T))) = (omega_e)))"
+                              (rule "or_left" (formula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "310067"))
+                              (branch " (omega_w_9) >  (omega_e)"
+                                 (rule "cut" (inst "b=(((a_15) <  (0)) | ((a_15) = (0))) | ((a_15) >  (0))") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "348953"))
+                                 (branch " CUT: (((a_15) <  (0)) | ((a_15) = (0))) | ((a_15) >  (0))"
+                                    (rule "or_left" (formula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "349926"))
+                                    (branch " ((a_15) <  (0)) | ((a_15) = (0))"
+                                       (rule "or_left" (formula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "350065"))
+                                       (branch " (a_15) <  (0)"
+                                          (rule "hide_left" (formula "8") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "355014"))
+                                          (rule "hide_left" (formula "14") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "355109"))
+                                          (rule "skolemize" (formula "14") (term "0,1") (inst "sk=e_new_theta_2") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "363219"))
+                                          (rule "skolemize" (formula "9") (term "0,0,1") (inst "sk=e_new_theta_1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "363358"))
+                                          (rule "skolemize" (formula "10") (term "0,1,1") (inst "sk=w_new_theta_1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "363508"))
+                                          (rule "skolemize" (formula "17") (term "1,1") (inst "sk=w_new_theta_2") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "363660"))
+                                          (rule "simplify_form" (formula "18") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "363833"))
+                                          (rule "cut" (inst "b=(e_new_theta_2) <= (e_new_theta_1)") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "384821"))
+                                          (branch " CUT: (e_new_theta_2) <= (e_new_theta_1)"
+                                             (rule "cut" (inst "b=(e_new_theta_2) >  (theta_w_9)") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "387819"))
+                                             (branch " CUT: (e_new_theta_2) >  (theta_w_9)"
+                                                (rule "cut" (inst "b=(0) <  ((e_new_theta_1) - (w_new_theta_1))") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "395035"))
+                                                (branch " CUT: (0) <  ((e_new_theta_1) - (w_new_theta_1))"
+                                                   (rule "hide_left" (formula "15") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "396305"))
+                                                   (rule "applyEqRigid" (formula "20") (term "0") (ifseqformula "4") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "397455"))
+                                                   (rule "applyEq" (formula "20") (term "1") (ifseqformula "5") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "397564"))
+                                                   (rule "applyEq" (formula "1") (term "0,1") (ifseqformula "13") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "397710"))
+                                                   (rule "applyEq" (formula "1") (term "1,1") (ifseqformula "14") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "397856"))
+                                                   (rule "hide_left" (formula "2") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "398000"))
+                                                   (rule "hide_left" (formula "2") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "398102"))
+                                                   (rule "hide_left" (formula "2") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "398204"))
+                                                   (rule "hide_left" (formula "2") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "398306"))
+                                                   (rule "hide_left" (formula "9") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "398408"))
+                                                   (rule "hide_left" (formula "9") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "398510"))
+                                                   (rule "hide_left" (formula "13") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "398693"))
+                                                   (rule "hide_left" (formula "8") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "398812"))
+                                                   (builtin "Eliminate Universal Quantifiers" (quantifierEliminator "Mathematica") (reduceVariables "t_15$sk, a_15$sk, theta_e_9$sk, theta_w_9$sk, omega_w_9$sk") (nodenum "398851"))
+                                                )
+                                                (branch " CUT: ! (0) <  ((e_new_theta_1) - (w_new_theta_1))"
+                                                   (rule "hide_right" (formula "21") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "396116"))
+                                                   (builtin "Eliminate Universal Quantifiers" (quantifierEliminator "Mathematica") (reduceVariables "w_new_theta_2$sk, w_new_theta_1$sk, e_new_theta_1$sk, e_new_theta_2$sk, t_15$sk, a_15$sk, theta_e_9$sk, theta_w_9$sk, omega_w_9$sk") (nodenum "396180"))
+                                                )
+                                             )
+                                             (branch " CUT: ! (e_new_theta_2) >  (theta_w_9)"
+                                                (rule "hide_right" (formula "20") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "388007"))
+                                                (rule "hide_left" (formula "13") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "390132"))
+                                                (builtin "Eliminate Universal Quantifiers" (formula "1") (quantifierEliminator "Mathematica") (nodenum "391882"))
+                                             )
+                                          )
+                                          (branch " CUT: ! (e_new_theta_2) <= (e_new_theta_1)"
+                                             (rule "hide_right" (formula "19") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "385837"))
+                                             (builtin "Eliminate Universal Quantifiers" (formula "1") (quantifierEliminator "Mathematica") (nodenum "387770"))
+                                          )
+                                       )
+                                       (branch " (a_15) = (0)"
+                                          (rule "simplify_form_ass_left" (formula "9") (ifseqformula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "350289"))
+                                          (rule "simplify_form_ass_right" (formula "16") (ifseqformula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "350578"))
+                                          (builtin "Eliminate Universal Quantifiers" (formula "1") (quantifierEliminator "Mathematica") (nodenum "354122"))
+                                       )
+                                    )
+                                    (branch " (a_15) >  (0)"
+                                       (rule "cut" (inst "b=   (0)
+<  (  ((theta_e_9) + ((omega_e) * (T)))
+    - (  ((theta_w_9) + ((omega_w_9) * (T)))
+       + (((a_15) * ((T) ^ (2))) / (2))))") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "398970"))
+                                       (branch " CUT:    (0)
+<  (  ((theta_e_9) + ((omega_e) * (T)))
+    - (  ((theta_w_9) + ((omega_w_9) * (T)))
+       + (((a_15) * ((T) ^ (2))) / (2))))"
+                                          (rule "hide_left" (formula "10") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "399366"))
+                                          (rule "hide_left" (formula "14") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "399506"))
+                                          (rule "hide_left" (formula "14") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "399603"))
+                                          (rule "hide_left" (formula "8") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "399711"))
+                                          (rule "hide_left" (formula "8") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "399809"))
+                                          (builtin "Eliminate Universal Quantifiers" (quantifierEliminator "Mathematica") (reduceVariables "t_15$sk, a_15$sk, theta_e_9$sk, theta_w_9$sk, omega_w_9$sk") (nodenum "399842"))
+                                       )
+                                       (branch " CUT: !    (0)
+<  (  ((theta_e_9) + ((omega_e) * (T)))
+    - (  ((theta_w_9) + ((omega_w_9) * (T)))
+       + (((a_15) * ((T) ^ (2))) / (2))))"
+                                          (rule "hide_right" (formula "17") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "399245"))
+                                          (builtin "Eliminate Universal Quantifiers" (quantifierEliminator "Mathematica") (reduceVariables "t_15$sk, a_15$sk, theta_e_9$sk, theta_w_9$sk, omega_w_9$sk") (nodenum "399274"))
+                                       )
+                                    )
+                                 )
+                                 (branch " CUT: ! (((a_15) <  (0)) | ((a_15) = (0))) | ((a_15) >  (0))"
+                                    (rule "hide_right" (formula "16") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "399931"))
+                                    (rule "simplify_form" (formula "15") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "400013"))
+                                    (rule "close_by_true" (formula "15") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "400115"))
+                                 )
+                              )
+                              (branch "   ((omega_w_9) = (omega_e))
+| (((omega_w_9) + ((a_15) * (T))) = (omega_e))"
+                                 (rule "or_left" (formula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "310205"))
+                                 (branch " (omega_w_9) = (omega_e)"
+                                    (builtin "Eliminate Universal Quantifiers" (formula "1") (quantifierEliminator "Mathematica") (nodenum "313390"))
+                                 )
+                                 (branch " ((omega_w_9) + ((a_15) * (T))) = (omega_e)"
+                                    (rule "hide_left" (formula "2") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "313486"))
+                                    (rule "applyEq" (formula "7") (term "0,0,1,1,0,1") (ifseqformula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "313546"))
+                                    (rule "applyEq" (formula "7") (term "0,0,0,1,1,1") (ifseqformula "1") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "313674"))
+                                    (rule "full_simplify_form" (formula "7") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "313827"))
+                                    (builtin "Eliminate Universal Quantifiers" (formula "1") (quantifierEliminator "Mathematica") (nodenum "314700"))
+                                 )
+                              )
+                           )
+                           (branch " CUT: !   ((omega_w_9) >  (omega_e))
+| (  ((omega_w_9) = (omega_e))
+   | (((omega_w_9) + ((a_15) * (T))) = (omega_e)))"
+                              (rule "or_right" (formula "14") (quantifierEliminator "Mathematica") (nodenum "306153"))
+                              (rule "or_right" (formula "15") (quantifierEliminator "Mathematica") (nodenum "306193"))
+                              (rule "hide_right" (formula "17") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "306350"))
+                              (rule "insert_hidden_taclet3_0" (userinteraction) (quantifierEliminator "Mathematica") (nodenum "307991"))
+                              (rule "imp_left" (formula "1") (quantifierEliminator "Mathematica") (nodenum "309751"))
+                              (branch " Case 1"
+                                 (builtin "Eliminate Universal Quantifiers" (quantifierEliminator "Mathematica") (reduceVariables "t_15$sk, a_15$sk, theta_e_9$sk, theta_w_9$sk, omega_w_9$sk") (nodenum "309989"))
+                              )
+                              (branch " Case 2"
+                                 (rule "hide_left" (formula "8") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "309933"))
+                                 (builtin "Eliminate Universal Quantifiers" (quantifierEliminator "Mathematica") (reduceVariables "t_15$sk, a_15$sk, theta_e_9$sk, theta_w_9$sk, omega_w_9$sk") (nodenum "309963"))
+                              )
+                           )
+                        )
+                        (branch " CUT: ! ((omega_w_9) + ((a_15) * (T))) >= (omega_e)"
+                           (rule "hide_right" (formula "17") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "290442"))
+                           (builtin "Eliminate Universal Quantifiers" (formula "1") (quantifierEliminator "Mathematica") (nodenum "293134"))
+                        )
+                     )
+                     (branch " CUT: !   (Max(  (  (((omega_w_9) + ((a_15) * (T))) ^ (2))
+          - ((omega_e) ^ (2)))
+       / ((2) * (B)),
+         (  ((omega_e) ^ (2))
+          - (((omega_w_9) + ((a_15) * (T))) ^ (2)))
+       / ((2) * (A))))
+= (  (  (((omega_w_9) + ((a_15) * (T))) ^ (2))
+      - ((omega_e) ^ (2)))
+   / ((2) * (B)))"
+                        (opengoal "   Max((omega_e - (omega_w_9 + a_15 * T)) / A,        (omega_w_9 + a_15 * T - omega_e) / B)  = (omega_w_9 + a_15 * T - omega_e) / B,  omega_w_9 + a_15 * t_15 >= 0,  t_15 <= T,  t_15 >= 0,  a_15 >= -B,  a_15 <= A,     (omega_w_9 + a_15 * T - omega_e) / B  >= (omega_e - (omega_w_9 + a_15 * T)) / A,     0  <      theta_e_9 + omega_e * T       +   omega_e         * ((omega_w_9 + a_15 * T - omega_e) / B)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A))),         theta_e_9 + omega_e * T       +   omega_e         * ((omega_w_9 + a_15 * T - omega_e) / B)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A)))  <  360,  omega_w_9 >= 0,  0 <  theta_e_9 - theta_w_9,  theta_e_9 - theta_w_9 <  360,  omega_e >  0,  T >  0,  B >  0,  A >  0 ==>    Max(  ((omega_w_9 + a_15 * T) ^ 2 - omega_e ^ 2)        / (2 * B),          (omega_e ^ 2 - (omega_w_9 + a_15 * T) ^ 2)        / (2 * A))  = ((omega_w_9 + a_15 * T) ^ 2 - omega_e ^ 2) / (2 * B),     0  <    theta_e_9 + omega_e * t_15     -   1 / 2       * (  2 * theta_w_9 + 2 * omega_w_9 * t_15          + a_15 * (t_15) ^ 2)   ")
+                     )
+                  )
+                  (branch " CUT: !   (Max(  ((omega_e) - ((omega_w_9) + ((a_15) * (T))))
+       / (A),
+         (((omega_w_9) + ((a_15) * (T))) - (omega_e))
+       / (B)))
+= ((((omega_w_9) + ((a_15) * (T))) - (omega_e)) / (B))"
+                     (rule "hide_right" (formula "17") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "282407"))
+                     (rule "hide_left" (formula "7") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "282491"))
+                     (rule "hide_left" (formula "7") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "282574"))
+                     (rule "max_value" (formula "14") (term "0") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "282661"))
+                     (rule "ifthenelse_split" (formula "14") (term "0") (userinteraction) (quantifierEliminator "Mathematica") (nodenum "282759"))
+                     (branch "    (((omega_e) - ((omega_w_9) + ((a_15) * (T)))) / (A))
+>= ((((omega_w_9) + ((a_15) * (T))) - (omega_e)) / (B)) TRUE"
+                        (builtin "Eliminate Universal Quantifiers" (formula "1") (quantifierEliminator "Mathematica") (nodenum "288665"))
+                     )
+                     (branch "    (((omega_e) - ((omega_w_9) + ((a_15) * (T)))) / (A))
+>= ((((omega_w_9) + ((a_15) * (T))) - (omega_e)) / (B)) FALSE"
+                        (rule "close_eq" (formula "15") (quantifierEliminator "Mathematica") (nodenum "288779"))
+                        (rule "close_by_true" (formula "15") (quantifierEliminator "Mathematica") (nodenum "288797"))
+                     )
+                  )
+               )
+               (branch "    ((((omega_w_9) + ((a_15) * (T))) - (omega_e)) / (B))
+>= (((omega_e) - ((omega_w_9) + ((a_15) * (T)))) / (A)) FALSE"
+                  (opengoal " omega_w_9 + a_15 * t_15 >= 0,  t_15 <= T,  t_15 >= 0,  a_15 >= -B,  a_15 <= A,     0  <      theta_e_9 + omega_e * T       +   omega_e         * ((omega_e - (omega_w_9 + a_15 * T)) / A)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A))),         theta_e_9 + omega_e * T       +   omega_e         * Max((omega_e - (omega_w_9 + a_15 * T)) / A,               (omega_w_9 + a_15 * T - omega_e) / B)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A)))  <  360,  omega_w_9 >= 0,  0 <  theta_e_9 - theta_w_9,  theta_e_9 - theta_w_9 <  360,  omega_e >  0,  T >  0,  B >  0,  A >  0 ==>     (omega_w_9 + a_15 * T - omega_e) / B  >= (omega_e - (omega_w_9 + a_15 * T)) / A,     0  <    theta_e_9 + omega_e * t_15     -   1 / 2       * (  2 * theta_w_9 + 2 * omega_w_9 * t_15          + a_15 * (t_15) ^ 2)   ")
+               )
+            )
+            (branch " Case 2"
+               (opengoal " omega_w_9 + a_15 * t_15 >= 0,  t_15 <= T,  t_15 >= 0,  a_15 >= -B,  a_15 <= A,     0  <      theta_e_9 + omega_e * T       +   omega_e         * Max((omega_w_9 + a_15 * T - omega_e) / B,               (omega_e - (omega_w_9 + a_15 * T)) / A)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A))),         theta_e_9 + omega_e * T       +   omega_e         * Max((omega_e - (omega_w_9 + a_15 * T)) / A,               (omega_w_9 + a_15 * T - omega_e) / B)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A)))  <  360,  omega_w_9 >= 0,  0 <  theta_e_9 - theta_w_9,  theta_e_9 - theta_w_9 <  360,  omega_e >  0,  T >  0,  B >  0,  A >  0 ==>       theta_e_9 + omega_e * t_15     -   1 / 2       * (  2 * theta_w_9 + 2 * omega_w_9 * t_15          + a_15 * (t_15) ^ 2)  <  360   ")
+            )
+         )
+         (branch " Case 2"
+            (opengoal " omega_w_9 + a_15 * t_15 >= 0,  t_15 <= T,  t_15 >= 0,  a_15 >= -B,  a_15 <= A,     0  <      theta_e_9 + omega_e * T       +   omega_e         * Max((omega_w_9 + a_15 * T - omega_e) / B,               (omega_e - (omega_w_9 + a_15 * T)) / A)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A))),         theta_e_9 + omega_e * T       +   omega_e         * Max((omega_e - (omega_w_9 + a_15 * T)) / A,               (omega_w_9 + a_15 * T - omega_e) / B)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A)))  <  360,  omega_w_9 >= 0,  0 <  theta_e_9 - theta_w_9,  theta_e_9 - theta_w_9 <  360,  omega_e >  0,  T >  0,  B >  0,  A >  0 ==>     omega_w_9 + a_15 * t_15 >  omega_e  -> T <= (omega_w_9 + a_15 * t_15 - omega_e) / B   ")
+         )
+      )
+      (branch " Case 2"
+         (opengoal " omega_w_9 + a_15 * t_15 >= 0,  t_15 <= T,  t_15 >= 0,  a_15 >= -B,  a_15 <= A,     0  <      theta_e_9 + omega_e * T       +   omega_e         * Max((omega_w_9 + a_15 * T - omega_e) / B,               (omega_e - (omega_w_9 + a_15 * T)) / A)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A))),         theta_e_9 + omega_e * T       +   omega_e         * Max((omega_e - (omega_w_9 + a_15 * T)) / A,               (omega_w_9 + a_15 * T - omega_e) / B)     - (  theta_w_9 + omega_w_9 * T + a_15 * T ^ 2 / 2        + Max(  (  (omega_w_9 + a_15 * T) ^ 2                 - omega_e ^ 2)              / (2 * B),                (  omega_e ^ 2                 - (omega_w_9 + a_15 * T) ^ 2)              / (2 * A)))  <  360,  omega_w_9 >= 0,  0 <  theta_e_9 - theta_w_9,  theta_e_9 - theta_w_9 <  360,  omega_e >  0,  T >  0,  B >  0,  A >  0 ==>     omega_e >  omega_w_9 + a_15 * t_15  -> T <= (omega_e - (omega_w_9 + a_15 * t_15)) / A   ")
+      )
+   )
+)
+)
+
+}
